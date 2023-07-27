@@ -5,7 +5,7 @@
 
 The primary objective of this programming test is to assess the problem-solving and programming abilities of the applicants. By presenting them with an uncommon coding problem, the test aims to gauge the applicants proficiency in devising a solution to a real-world challenge. The assessment strives to select individuals who demonstrate a solid foundation in problem-solving and programming, ensuring they are well-equipped to contribute effectively to the organization's technical endeavors.
 
-## Designing and Training a Deep Learning Model on a Subset of CIFAR10
+## Design and Train a Deep Learning Model on a Subset of CIFAR10
 
 For the following programming test, we will use the CIFAR10 dataset. You can read about this dataset and download it from [here](https://www.cs.toronto.edu/~kriz/cifar.html).
 
