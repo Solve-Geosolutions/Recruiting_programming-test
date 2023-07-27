@@ -1,33 +1,42 @@
 ![Datarock](assets/datarock_logo_2_rect.jpeg)
 
 
-# Project Title
+# Programming Test for Recruiting:
 
-A short description of the project.
+The primary objective of this programming test is to assess the problem-solving and programming abilities of the applicants. By presenting them with a uncommon coding problem , the test aims to gauge the applicants proficiency in devising a  solution to a real-world challenge. The assessment strives to select individuals who demonstrate a solid foundation in problem-solving and programming, ensuring they are well-equipped to contribute effectively to the organization's technical endeavors.
 
-## Project Goals & Data Sets
+## Designing and Training a Deep Learning Model on a Subset of CIFAR10
 
-Describe the project goals and datasets used. 
+For the following programming test, we will use the CIFAR10 dataset. You can read about this dataset and download it from [here](https://www.cs.toronto.edu/~kriz/cifar.html).
 
+Follow the instructions below to write your program. Please write your program using ***Pytorch***. Upload your code to your GitHub repository and send us the link to your repository. Please make sure your repository is public. 
+
+1. Download the CIFAR10 dataset.
+2. Write a code that takes images with labels *deer* and *truck* from the training and test subsets of CIFAR10 dataset.  
+3. Design a Convolutional Neural Network (CNN) with four convolutional layers and two fully connected layers that outputs two probabilities one for class deer and one for class truck.
+4. Train your CNN on the images labeled deer and truck for 30 epochs.
+5. Plot the training loss/accuracy and validation loss/accuracy of the model per epoch during training.
+6. Plot two images labeled deer that the model predicts correctly and two images labeled *deer* that the model predicts wrongly.
+7. Plot two images labeled truck that the model predicts correctly and two images labeled *truck* that the model predicts wrongly.
+
+***IMPORTANT: Your code should be able to run directly on the CIFAR10 dataset files provided at the above link.*** 
 
 ## Outputs
 
-Location of the deliverables or outputs that contain images, csvs, etc. 
+The following files should be provided:
 
-# How to run
+1. The file containing the code that does all the steps listed above.
+2. A plot that shows the training loss/accuracy of the model 
+3. A plot that shows the validation loss/accruacy of the model 
+4. A plot that shows two images with labels *deer* that the model predicts correctly and two images with labels *deer* that the model predicts incorrectly. 
+5. A plot that shows two images with labels *truck* that the model predicts correctly and two images with labels *truck* that the model predicts incorrectly.
+
 
 ## Environments
 
-Information about how to setup the environment
+Please provide Information about how to setup the environment to run your code. 
 
-## Data
-
-You can download the data using the dvc. First set up the dvc remote to retrieve the data. DVC remote location is stored in settings.yaml file. Use following command to retrieve the data
-
-``` 
-dvc remote add -d PROJECTNAMEIN_SETTINGS_FILE DVC_REMOTE_IN_SETTINGS_FILE 
-```
 
 ## Code 
 
-Information about where the codes are located and what order to run
+Please provide information about where the codes are located and in what order to run the files. 
