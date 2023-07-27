@@ -1,0 +1,4 @@
+project_name : test
+dvc_folders: data outputs
+dvc_remote : s3://applied-science-dvc/test
+git_remote:

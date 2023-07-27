@@ -1,0 +1,10 @@
+#!/bin/bash
+
+env -i bash --norc
+
+. scripts/list_files.sh > dvc_files.md
+find . -type f ! -path "./.git/*" ! -path "./.dvc/*"> files.txt
+git add dvc_files.md files.txt
+echo "> File structure has been updated with the commit"
+
+exit
